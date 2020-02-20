@@ -23,6 +23,8 @@ jim = Student.new
 jim.first_name = "Jim"
 jim.last_name = "Colbert"
 
-jim.learn(some_knowledge)
+some_other_knowledge = avi.teach
+
+jim.learn(some_other_knowledge)
 
 puts "Jim just learned: #{jim.knowledge.first}"
