@@ -28,3 +28,5 @@ some_other_knowledge = avi.teach
 jim.learn(some_other_knowledge)
 
 puts "Jim just learned: #{jim.knowledge.first}"
+
+puts jim.knowledge
